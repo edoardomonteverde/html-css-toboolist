@@ -1,0 +1,96 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root {
+
+    --cbackm: #F6F8F9;
+    --caddt: #47ADF1;
+    --cedit: #45ABE9;
+    --cq1: #9C72E4;
+    --crec: #64C0A9;
+    --cmob: #F29E33;
+    --cweb: #D863A1;
+    --csal: #B0C926;
+    
+}
+
+body {
+
+
+    background-color:var(--cbackm);
+
+}
+
+
+header {
+
+    height: 70px;
+    align-items: center;
+    background-color: white;
+
+}
+
+
+.logo{
+
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    display: inline;
+    vertical-align: middle;
+
+}
+
+.logo-test {
+
+    font-size: 38px;
+    display: inline;
+    vertical-align: middle;
+
+}
+
+.container{
+
+    width: 80%;
+    background-color: white;
+    padding:1rem 4rem;
+    margin: 3rem auto;
+
+}
+
+.buttons-zone {
+
+    padding: 1rem ;
+    border-bottom: 1px solid var(--cbackm);
+
+}
+
+.buttons{
+
+    margin: 1px;
+    padding:0.5rem 1rem;
+    border-radius:5px;
+        
+}
+
+
+#clicked-button {
+
+    color:white;
+    background-color: var(--caddt);
+    border:none;
+}
+
+#unclicked-button {
+
+    border: 1px solid lightgray;
+    color: lightgray;
+    background-color: white
+    
+}
