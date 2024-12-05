@@ -6,6 +6,7 @@
 
 }
 
+
 :root {
 
     --cbackm: #F6F8F9;
@@ -19,18 +20,27 @@
     
 }
 
+@font-face{
+
+    font-family:Roboto ;
+    src:url(fonts/Roboto/Roboto-Regular.ttf)
+}
+
 body {
 
 
     background-color:var(--cbackm);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
 
 }
+
 
 
 header {
 
     height: 70px;
-    align-items: center;
+    align-items: left;
     background-color: white;
 
 }
@@ -42,7 +52,7 @@ header {
     padding-right: 1rem;
     padding-bottom: 0.5rem;
     padding-left: 1rem;
-    display: inline;
+    display: inline-block;
     vertical-align: middle;
 
 }
@@ -66,8 +76,8 @@ header {
 
 .buttons-zone {
 
-    padding: 1rem ;
-    border-bottom: 1px solid var(--cbackm);
+    padding-bottom:0.5rem ;
+    border-bottom: 2px solid var(--cbackm);
 
 }
 
@@ -76,7 +86,7 @@ header {
     margin: 1px;
     padding:0.5rem 1rem;
     border-radius:5px;
-        
+
 }
 
 
@@ -93,4 +103,108 @@ header {
     color: lightgray;
     background-color: white
     
+}
+
+
+.task-zone{
+
+    
+    margin-top: 40px;
+    
+
+}
+
+
+.border-circle{
+
+height:1.5rem;
+width:1.5rem;
+display:inline-block;
+border: 1px solid;
+border-radius:50%;
+margin-right: 1rem;
+text-align: center;
+
+}
+
+
+#c-check{
+
+    
+    border-color: #68C2AC;
+    color:#68C2AC;
+    
+
+
+}
+
+#c-x{
+
+    color:#EF8682;
+    border-color: #EF8682;
+}
+
+
+
+li{
+
+    list-style: none;
+    padding-top:1rem;
+    
+}
+
+
+#last-li{
+
+    margin-bottom:2rem;
+
+}
+
+
+
+.label{
+
+    font-size:0.6rem;
+    border-radius:10px;
+    padding:0.5rem;
+    margin-left:0.5rem;
+    color:white;
+
+}
+
+#lab-edit{
+
+    background-color:var(--cedit)
+
+}
+
+#lab-q1{
+
+    background-color: var(--cq1);
+}
+
+
+#lab-rec{
+
+    background-color: var(--crec);
+}
+
+#lab-mob{
+
+    background-color: var(--cmob);
+
+}
+
+
+#lab-web {
+
+    background-color: var(--cweb);
+}
+
+
+#lab-sal {
+
+    background-color: var(--csal);
+
+
 }
