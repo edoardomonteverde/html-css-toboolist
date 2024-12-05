@@ -92,7 +92,7 @@ header {
 
 #clicked-button {
 
-    color:white;
+    color:black;
     background-color: var(--caddt);
     border:none;
 }
@@ -100,7 +100,7 @@ header {
 #unclicked-button {
 
     border: 1px solid lightgray;
-    color: lightgray;
+    color: black;
     background-color: white
     
 }
